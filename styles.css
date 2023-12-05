@@ -1,0 +1,26 @@
+#page-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#background-container {
+    background-image: url(assets/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 33%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+    #background-image-credits {
+        color: white;
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+
+#form-container {
+    flex: 0 0 66%;
+}
